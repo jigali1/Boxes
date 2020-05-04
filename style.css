@@ -390,13 +390,17 @@ header {
 .sort__element {
 	padding: 12px 24px;
 	background-color: #ebcb8d;
+	
+	border-radius: 3px;
+}
+
+.sort__element p {
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 19.5px;
 	text-transform: uppercase;
 	color: #393939;
 	letter-spacing: 0.36px;
-	border-radius: 3px;
 }
 
 .sort__element_selected {
